@@ -87,3 +87,26 @@ margin: 0;
     width: 85%;
 }
  /* finish elephant world */
+
+
+ /* start deer world */
+ .deer-world{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(others-images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.deer-world span{
+    color: rgb(255, 60, 60);
+}
+.deer-half-width{
+    width: 50%;
+    padding-right: 5%;
+}
+.deer-half-width img{
+    width: 85%;
+    margin-left: 10%;
+}
+
+/* finish deer world */
