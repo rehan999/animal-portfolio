@@ -1,26 +1,33 @@
 body{
     font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
+margin: 0;
 } 
 .lions-world{
     display: flex;
     margin-bottom: 150px;
+    background-image: url(others-images/top-banner.png);
+    background-repeat: no-repeat;
 
 }
 .lions-world span{
     color: rgb(255, 53, 120);
 }
-.half-width{
+.lion-half-width{
     width: 50%;
-    margin-left: 50px;
+    padding-left: 5%;
 
+}
+.lion-half-width img{
+    width: 85%;
 }
 
 .button-style{
+    color: #90fff6;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    background-image: linear-gradient(rgba(97, 124, 243, 0.904), rgba(245, 165, 99, 0.918));
+    background-image: linear-gradient(rgba(134, 72, 248, 0.904), rgba(245, 51, 187, 0.918));
     font-weight: 900;
 
 }
@@ -29,7 +36,19 @@ font-family: 'Poppins', sans-serif;
 }
 .tiger-world{
     display: flex;
+    margin-bottom: 150px;
+    background-image: url(others-images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .tiger-world span{
     color: rgb(255, 60, 60);
+}
+.tiger-half-width{
+    width: 50%;
+    padding-right: 5%;
+}
+.tiger-half-width img{
+    width: 85%;
+    margin-left: 10%;
 }
